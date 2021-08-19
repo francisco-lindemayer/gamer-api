@@ -1,4 +1,4 @@
-#A simple REST API with C#
+# A simple REST API with C#
 
 This project was created based on amazing tutorial by Julio Casal
 The tutorial can be watched on link below:
@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=ZXdFisA_hOY
 
 It's really a wonderfull tutorial!!!
 
-##:milky_way: The journey
+## :milky_way: The journey
 
 ####:baby: Entity, Repository, Controller GET
 - [X] Introduction
@@ -17,7 +17,7 @@ It's really a wonderfull tutorial!!!
 - [X] Implemeting GET single item
 - [X] Returning a 404 NotFound status code
 
-####:child: Dependency Injection, DTOSs
+#### :child: Dependency Injection, DTOSs
 - [X] Introduction
 - [X] What is dependency injection?
 - [X] Extracting the repository interface
@@ -26,14 +26,14 @@ It's really a wonderfull tutorial!!!
 - [X] Adding a Data Transfer Object DTO
 - [X] Creating the AsDto extension method
 
-####:boy: POST, PUT, DELETE
+#### :boy: POST, PUT, DELETE
 - [X] Introduction
 - [X] Implementing POST
 - [X] Adding validations via data annotations
 - [X] Implemeting PUT
 - [X] Implementing DELETE
 
-####:adult: Persisting Entities with MongoDB
+#### :adult: Persisting Entities with MongoDB
 - [ ] Introduction
 - [ ] Using Postman
 - [ ] Creating a MongoDB repository
@@ -46,7 +46,7 @@ It's really a wonderfull tutorial!!!
 - [ ] Exploring the created database in VS Code
 - [ ] Implemeting MongoDB Get, Update and Delete
 
-####:bearded_person: Tasks, Async and Await
+#### :bearded_person: Tasks, Async and Await
 - [ ] Introduction
 - [ ] Using the Async suffix
 - [ ] Using tasks in the repository
@@ -55,7 +55,7 @@ It's really a wonderfull tutorial!!!
 - [ ] Using tasks in the controller
 - [ ] Testing async methods in Postman
 
-####:white_haired_man: Secrets and Health Checks
+#### :white_haired_man: Secrets and Health Checks
 - [ ] Introduction
 - [ ] Enabling authentication in MongoDB
 - [ ] Using the .NET Secret Manager
@@ -67,7 +67,7 @@ It's really a wonderfull tutorial!!!
 - [ ] Customizing the health check response
 - [ ] Exploring other health check NuGet packages
 
-####:older_adult: Docker
+#### :older_adult: Docker
 - [ ] Introduction
 - [ ] What is Docker?
 - [ ] Removing https redirection
@@ -80,7 +80,7 @@ It's really a wonderfull tutorial!!!
 - [ ] Exploring the image in Docker Hub
 - [ ] Pulling the image back to the local box
 
-####:older_man: Kubernetes
+#### :older_man: Kubernetes
 - [ ] Introduction
 - [ ] What is Kubernetes?
 - [ ] Enabling a Kubernetes cluster in Docker Desktop
@@ -100,7 +100,7 @@ It's really a wonderfull tutorial!!!
 - [ ] Getting a new image version into Kubernetes
 - [ ] Load balancing requests across pods
 
-####:mage: Unit Testing and TDD
+#### :mage: Unit Testing and TDD
 - [ ] Introduction
 - [ ] What is unit testing?
 - [ ] What is test driven development?
