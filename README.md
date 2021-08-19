@@ -8,7 +8,7 @@ It's really a wonderfull tutorial!!!
 
 ## :milky_way: The journey
 
-####:baby: Entity, Repository, Controller GET
+#### :baby: Entity, Repository, Controller GET
 - [X] Introduction
 - [X] Adding an entity
 - [X] Ading an in-memory repository
