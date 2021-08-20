@@ -21,7 +21,7 @@ First, make sure you already have a volume set for the app. If it exists, remove
   docker volume rm mongo-gamer-data
 ```
 
-We to want to create a new volume.
+We want to create a new volume.
 Let's start a container with a new volume and configurations
 ```bash
   docker run -d --rm --name mongo-gamer-api -p 27017:27017 -v mongo-gamer-data:/data/db -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=pass mongo
