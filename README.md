@@ -1,6 +1,7 @@
 # A simple REST API with C#
 
 This project was created based on amazing tutorial by Julio Casal
+
 The tutorial can be watched on link below:
 https://www.youtube.com/watch?v=ZXdFisA_hOY
 
@@ -47,13 +48,13 @@ It's really a wonderfull tutorial!!!
 - [X] Implemeting MongoDB Get, Update and Delete
 
 ### :bearded_person: Tasks, Async and Await
-- [ ] Introduction
-- [ ] Using the Async suffix
-- [ ] Using tasks in the repository
-- [ ] Using async and await
-- [ ] Returning completed tasks
-- [ ] Using tasks in the controller
-- [ ] Testing async methods in Postman
+- [X] Introduction
+- [X] Using the Async suffix
+- [X] Using tasks in the repository
+- [X] Using async and await
+- [X] Returning completed tasks
+- [X] Using tasks in the controller
+- [X] Testing async methods in Postman
 
 ### :white_haired_man: Secrets and Health Checks
 - [ ] Introduction
