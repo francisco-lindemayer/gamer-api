@@ -27,6 +27,12 @@ Let's start a container with a new volume and configurations
   docker run -d --rm --name mongo-gamer-api -p 27017:27017 -v mongo-gamer-data:/data/db -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=pass mongo
 ```
 
+And finally we can init and set a secret to password, using .Net Core Secret Manager
+```bash
+dotnet user-secrets init
+dotnet user-secrets set MongoDbSettings:Password pass
+```
+
 Now, we can run app using F5
 
 ---

@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>GamerApi</RootNamespace>
-    <UserSecretsId>751dcf0d-9d90-4730-8ecb-d0194e4fbfba</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
