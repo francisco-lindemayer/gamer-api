@@ -7,6 +7,29 @@ https://www.youtube.com/watch?v=ZXdFisA_hOY
 
 It's really a wonderfull tutorial!!!
 
+## :gear: To run app
+
+First, make sure you already have a volume set for the app. If it exists, remove this volume.
+```bash
+  docker volume ls
+  # In my example, it returned a volume name as below
+  #DRIVER              VOLUME NAME
+  #local               mongo-gamer-data
+
+
+  # Then we can remove this volume
+  docker volume rm mongo-gamer-data
+```
+
+We to want to create a new volume.
+Let's start a container with a new volume and configurations
+```bash
+  docker run -d --rm --name mongo-gamer-api -p 27017:27017 -v mongo-gamer-data:/data/db -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=pass mongo
+```
+
+Now, we can run app using F5
+
+---
 ## :milky_way: The journey
 
 ### :baby: Entity, Repository, Controller GET
@@ -57,16 +80,16 @@ It's really a wonderfull tutorial!!!
 - [X] Testing async methods in Postman
 
 ### :white_haired_man: Secrets and Health Checks
-- [ ] Introduction
-- [ ] Enabling authentication in MongoDB
-- [ ] Using the .NET Secret Manager
-- [ ] Using the MongoDB credentials in the service
-- [ ] Introduction to Health Checks
-- [ ] Adding an endpoint for health checks
-- [ ] Adding a MongoDB health check
-- [ ] Adding checks for readiness and liveness
-- [ ] Customizing the health check response
-- [ ] Exploring other health check NuGet packages
+- [X] Introduction
+- [X] Enabling authentication in MongoDB
+- [X] Using the .NET Secret Manager
+- [X] Using the MongoDB credentials in the service
+- [X] Introduction to Health Checks
+- [X] Adding an endpoint for health checks
+- [X] Adding a MongoDB health check
+- [X] Adding checks for readiness and liveness
+- [X] Customizing the health check response
+- [X] Exploring other health check NuGet packages
 
 ### :older_adult: Docker
 - [ ] Introduction
